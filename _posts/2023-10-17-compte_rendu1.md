@@ -13,20 +13,20 @@ L'objectif de cette SAE est de monter nos compétences en administration Windows
 
 ## 2. Topologie
 
-![](/assets/img/SAE3_ROM_03/Compte_rendu_1/Capture1.PNG)
+![](/assets/img/SAE3_ROM_03/Compte_rendu_1/Capture1.png)
 
 L'adressage du site est le suivant:
 
 ### Site A
 
 | Nom du réseau | Adresse de sous-réseau | Masque de sous-réseau |
-|:-------------:|:----------------------:|:---------------------:|
+| ------------- | ---------------------- | --------------------- |
 |      dmzA     |       10.0.5.0/24      |     255.255.255.0     |
 |   ressourceA  |       10.1.5.0/24      |     255.255.255.0     |
 |    clientA    |       10.2.5.0/24      |     255.255.255.0     |
 
 |    Nom de l'hôte   | Nom de l'interface | Nom du sous-réseau | Adresse IP de sous-réseau | Masque de sous-réseau |
-|:------------------:|:------------------:|:------------------:|:-------------------------:|:---------------------:|
+| ------------------ | ------------------ | ------------------ | ------------------------- | --------------------- |
 |       WinDMZA      |      ethernet      |        dmzA        |        10.0.5.1/24        |     255.255.255.0     |
 |     WinClientA     |      ethernet      |       clientA      |        10.2.5.1/24        |     255.255.255.0     |
 | PDCA.principal5.rt |      ethernet      |     ressourceA     |       10.1.5.128/24       |     255.255.255.0     |
@@ -38,13 +38,13 @@ L'adressage du site est le suivant:
 ### Site B
 
 | Nom du réseau | Adresse de sous-réseau | Masque de sous-réseau |
-|:-------------:|:----------------------:|:---------------------:|
+|---------------|------------------------|-----------------------|
 |      dmzB     |       10.4.5.0/24      |     255.255.255.0     |
 |   ressourceB  |       10.5.5.0/24      |     255.255.255.0     |
 |    clientB    |       10.6.5.0/24      |     255.255.255.0     |
 
 |    Nom de l'hôte   | Nom de l'interface | Nom du sous-réseau | Adresse IP de sous-réseau | Masque de sous-réseau |
-|:------------------:|:------------------:|:------------------:|:-------------------------:|:---------------------:|
+|--------------------|--------------------|--------------------|---------------------------|-----------------------|
 |       WinDMZB      |      ethernet      |        dmzA        |        10.4.5.1/24        |     255.255.255.0     |
 |     WinClientB     |      ethernet      |       clientB      |        10.6.5.1/24        |     255.255.255.0     |
 | SDCB.principal5.rt |      ethernet      |     ressourceB     |       10.5.5.128/24       |     255.255.255.0     |
@@ -56,13 +56,13 @@ L'adressage du site est le suivant:
 ### Site C
 
 | Nom du réseau | Adresse de sous-réseau | Masque de sous-réseau |
-|:-------------:|:----------------------:|:---------------------:|
+|---------------|------------------------|-----------------------|
 |      dmzC     |       10.7.5.0/24      |     255.255.255.0     |
 |   ressourceC  |       10.8.5.0/24      |     255.255.255.0     |
 |    clientC    |       10.9.5.0/24      |     255.255.255.0     |
 
 |         Nom de l'hôte        | Nom de l'interface | Nom du sous-réseau | Adresse IP de sous-réseau | Masque de sous-réseau |
-|:----------------------------:|:------------------:|:------------------:|:-------------------------:|:---------------------:|
+|------------------------------|--------------------|--------------------|---------------------------|-----------------------|
 |            WinDMZC           |      ethernet      |        dmzC        |        10.7.5.1/24        |     255.255.255.0     |
 |         WinRessourceC        |      ethernet      |     ressourceC     |        10.8.5.1/24        |     255.255.255.0     |
 | SDCC.tertiaire.principal5.rt |      ethernet      |     ressourceC     |       10.8.5.128/24       |     255.255.255.0     |
@@ -81,9 +81,9 @@ Serveur C: Enzo
 
 Pour commencer, je me connecte sur le pare-feu en me connectant sur l'adaptateur réseau 2 de la VM.
 
-![](/assets/img/SAE3_ROM_03/Compte_rendu_1/Capture2.PNG)
+![](/assets/img/SAE3_ROM_03/Compte_rendu_1/Capture2.png)
 
 Après m'avoir attribué une IP dans le réseau 10.0.0.0/24, je me connecte sur l'interface web du firewall.
 
-![](/assets/img/SAE3_ROM_03/Compte_rendu_1/Capture3.PNG)
+![](/assets/img/SAE3_ROM_03/Compte_rendu_1/Capture3.png)
 
