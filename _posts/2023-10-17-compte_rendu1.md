@@ -13,7 +13,7 @@ L'objectif de cette SAE est de monter nos compétences en administration Windows
 
 ## 2. Topologie
 
-![](/assets/img/SAE3_ROM_03/Compte_rendu_1/Capture1.png)
+![](/assets/img/SAE3_ROM_03/Compte_rendu_1/Capture1.PNG)
 
 L'adressage du site est le suivant:
 
@@ -81,9 +81,9 @@ Serveur C: Enzo
 
 Pour commencer, je me connecte sur le pare-feu en me connectant sur l'adaptateur réseau 2 de la VM.
 
-![](/assets/img/SAE3_ROM_03/Compte_rendu_1/Capture2.png)
+![](/assets/img/SAE3_ROM_03/Compte_rendu_1/Capture2.PNG)
 
 Après m'avoir attribué une IP dans le réseau 10.0.0.0/24, je me connecte sur l'interface web du firewall.
 
-![](/assets/img/SAE3_ROM_03/Compte_rendu_1/Capture3.png)
+![](/assets/img/SAE3_ROM_03/Compte_rendu_1/Capture3.PNG)
 
